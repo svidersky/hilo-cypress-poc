@@ -1,0 +1,12 @@
+{
+  "name": "cypress-hilo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "cyopen": "npx cypress open",
+    "cyrun": "npx cypress run --browser chrome --headless"
+  },
+  "devDependencies": {
+    "cypress": "^4.7.0"
+  }
+}
