@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://www.hiloenergie.com/en-ca/",
+  "viewportWidth": 1280,
+  "viewportHeigth": 900,
+  "chromeWebSecurity": false,
+  "video": false,
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "cypress/results/test-run-[hash].xml",
+    "toConsole": true
+  },
+  "requestTimeout": 10000,
+  "defaultCommandTimeout": 10000
+}
